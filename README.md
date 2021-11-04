@@ -1,5 +1,5 @@
 # Notes
-This is just very simple consol application, where you can store some notes, 
+This is just a very simple consol application, where you can store some notes. 
 
 not very practical but it was made from scratch just for practice.
 
