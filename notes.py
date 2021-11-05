@@ -1,14 +1,18 @@
 import sqlite3
 import simple_encryptor
 import datetime
-import os
+import os, sys
 
 notes = []
 width = 80
 
 
 def clear():
-    os.system('clear')
+    
+    if sys.platform == 'linux':
+        os.system('clear')
+    elif sys.platform == 'win32':
+        os.system('cls')
 
 def print_long_line():
 
